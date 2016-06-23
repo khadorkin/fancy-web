@@ -16,7 +16,7 @@
     "babel-relay-plugin": "0.8.0",
     "babel-relay-plugin-loader": "0.8.1",
     "clean-webpack-plugin": "^0.1.8",
-    "cross-env": "^1.0.7",
+    "cross-env": "^1.0.8",
     "css-loader": "^0.23.1",
     "eslint": "^2.5.3",
     "eslint-config-airbnb": "^6.2.0",
@@ -52,7 +52,7 @@
     "webpack-isomorphic-tools": "^2.2.43"
   },
   "scripts": {
-    "build:webpack": "cross-env NODE_ENV=production webpack --config .build-tools/webpack.config.prod.js",
+    "build:webpack": "cross-env NODE_ENV=production webpack --config ./.build-tools/webpack.config.prod.js",
     "build": "npm run build:webpack",
     "start": "heroku local",
     "start:dev": "parallelshell 'npm run dev' 'npm run watch'",
